@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const morgan = require("morgan");
 const routes = require("./routes");
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout-tracker", {
   useNewUrlParser: true,
