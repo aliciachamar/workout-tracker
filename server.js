@@ -5,7 +5,7 @@ const routes = require("./routes");
 
 const PORT = process.env.port || 3001;
 
-mongoose.connect("mongodb://localhost:27017/workout-tracker", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout-tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
