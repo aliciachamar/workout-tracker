@@ -49,6 +49,4 @@
   
   ## Screenshots
 
-  ![Terminal Screenshot](https://raw.githubusercontent.com/aliciachamar/readme-generator/main/assets/images/terminal-screenshot.PNG)
-
-  ![Finished Readme Screenshot](https://raw.githubusercontent.com/aliciachamar/readme-generator/main/assets/images/finished-screenshot.PNG)
+  ![Main Screenshot](https://raw.githubusercontent.com/aliciachamar/workout-tracker/main/public/assets/images/main-screenshot.PNG)
